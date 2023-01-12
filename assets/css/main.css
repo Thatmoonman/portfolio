@@ -3997,3 +3997,32 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+/* My addition */
+
+.hoverButtons {
+  transition: all 0.3s ease-in-out;
+}
+
+.hoverButtons:hover {
+	transform: scale(1.1);
+}
+
+.bobAnimation {
+	animation: arrow-bob infinite 2s ease-in-out;
+}
+
+@keyframes tilt-shaking {
+	0% { transform: rotate(0deg); }
+	25% { transform: rotate(5deg); }
+	50% { transform: rotate(0eg); }
+	75% { transform: rotate(-5deg); }
+	100% { transform: rotate(0deg); }
+}
+
+@keyframes arrow-bob {
+	0% { transform: translateY(0);}
+	50% {transform: translateY(25px);}
+	100% { transform: translateY(0);}
+}
