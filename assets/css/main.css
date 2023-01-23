@@ -4011,6 +4011,16 @@ input, select, textarea {
 
 .bobAnimation {
 	animation: arrow-bob infinite 2s ease-in-out;
+	cursor: pointer;
+}
+
+.profilePic {
+	border-radius: 50%; 
+	height: 300px;
+}
+
+.profilePic:hover {
+	animation: tilt-shaking infinite 2.5s ease-in-out;
 }
 
 @keyframes tilt-shaking {
