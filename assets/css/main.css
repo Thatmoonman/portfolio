@@ -4009,6 +4009,14 @@ input, select, textarea {
 	transform: scale(1.1);
 }
 
+.hoverLinks {
+	transition: all 0.5s ease-in-out;
+  }
+  
+.hoverLinks:hover {
+	transform: scale(1.4);
+}
+  
 .bobAnimation {
 	animation: arrow-bob infinite 2s ease-in-out;
 	cursor: pointer;
