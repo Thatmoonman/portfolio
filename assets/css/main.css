@@ -4044,3 +4044,11 @@ input, select, textarea {
 	50% {transform: translateY(25px);}
 	100% { transform: translateY(0);}
 }
+
+.musicAboutContainer {
+	margin: 0 10%;
+}
+
+.musicPlayerContainer {
+	margin: 5%;
+}
