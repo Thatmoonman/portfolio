@@ -7,14 +7,14 @@
         
         switch (src) {
             case 'SWE':
-                src = './assets/Justin_Kilburn_Resume.pdf'
+                src = './assets/Justin_Kilburn_Resume_SWE.pdf'
                 resume1Button.disabled = true;
                 resume1Button.style.backgroundColor = 'lightgray';
                 resume2Button.disabled = false;
                 resume2Button.style.backgroundColor = '';
                 break;
             case 'PM':
-                src = './assets/Justin_Kilburn_PM_Resume.pdf'
+                src = './assets/Justin_Kilburn_Resume_PM.pdf'
                 resume2Button.disabled = true;
                 resume2Button.style.backgroundColor = 'lightgray';
                 resume1Button.disabled = false;
